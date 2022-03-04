@@ -1,0 +1,43 @@
+
+.items {
+    width: 1440;
+    height: 1024;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bottle1{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.bottle2{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+.bottle3{
+    position: absolute;
+    left: 420px;
+    top: 365px;
+}
+.bottle4{
+    position: absolute;
+    left: 995px;
+}
+.bottle-text{
+    top: 369px;
+    left: 524px;
+    position: absolute;
+    width: 500px;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
