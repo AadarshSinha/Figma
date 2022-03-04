@@ -124,3 +124,17 @@
     text-align: left;
     left: 10%;
 }
+.screen1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background:none;
+    border: none;
+}
+.screen3{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    background:none;
+    border: none;
+}

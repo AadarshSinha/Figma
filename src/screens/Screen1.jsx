@@ -6,12 +6,18 @@ import letter4 from "../images/Vector4.svg"
 import ring from "../images/ring.svg"
 import bottle from "../images/bottle.svg"
 import cap from "../images/cap.svg"
+import front from "../images/front.svg"
+import { useNavigate } from 'react-router-dom';
 import loginBackground from "../images/login.svg"
-const Screen1 = () => {
-  return(
-      <>
-      <div className="container">
+import {motion} from "framer-motion"
 
+const Screen1 = () => {
+  const nav = useNavigate();
+  const screen2 = () => {
+      nav("/screen2")
+  }
+  return(
+      <motion.div className="container" initial={{opacity:0}} exit={{opacity:0}} animate={{opacity:1}} >
          <div className="navbar">
            <div className="brand">
              <div className="letter1"><img src={letter1}/></div>
@@ -37,8 +43,8 @@ const Screen1 = () => {
              <div className="image2"><img src={bottle}/></div>
              <div className="image1"><img src={cap}/></div>
          </div>
-      </div>
-      </>
+         <div className="screen2" onClick={screen2}><img src={front}/></div>
+      </motion.div>
   )
 }
 export default Screen1;

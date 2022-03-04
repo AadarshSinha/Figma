@@ -171,5 +171,11 @@
     position: absolute;
     top: 400px;
     left: 250px;
-
+}
+.screen2{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    background:none;
+    border: none;
 }

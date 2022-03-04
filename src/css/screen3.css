@@ -41,3 +41,10 @@
     text-align: center;
     color: white;
 }
+.screen2-page3{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background:none;
+    border: none;
+}
